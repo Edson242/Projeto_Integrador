@@ -9,14 +9,13 @@
         #rodapé {
             text-align: center;
         }
-        .inputs {
-            text-align: center;        
-        }
         #entrada_1, #entrada_2 {
             position: absolute;
             left: 50%;
         }
-
+        body {
+            background-color: rgba(128, 128, 128, 0.499);
+        }
     </style>
     <title>Página de Cadastro</title>
 </head>
@@ -26,15 +25,15 @@
     </header>
 
     <main>
-        <label for="label1">Nome do produto</label> <br>
-        <input type="text" id="entrada_1"></main> 
-        <label for="label2">Localização do produto</label> <br>
-        <input type="text" id="entrada_2"> <br>
-        <input type="submit" value="Cadastrar" style="position: absolute; left: 50%;">
+        <br>
+        <label for=""></label>
+        <input class="position-absolute" placeholder="Nome do produto" type="text" id="entrada_1" style="border-radius: 10px;"> </main> 
+        <input class="mx-auto align- " placeholder="Localização do produto" type="text" id="entrada_2" style="border-radius: 10px;"> <br>
+        <input class="btn btn-outline-primary align-middle" type="submit" value="Cadastrar" style="position: absolute; left: 50%; ">
     </main>
         
     <footer>
-        <p id="rodapé">Site desenvolvido por aluno <strong>SENAC - SC</strong></p>
+        <p id="rodapé" class="fixed-bottom"> Site desenvolvido por alunos <strong>SENAC - SC</strong></p>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
