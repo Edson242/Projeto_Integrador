@@ -9,13 +9,26 @@
         #rodapé {
             text-align: center;
         }
-        #entrada_1, #entrada_2 {
+        /* #entrada_1, #entrada_2 {
             position: absolute;
             left: 50%;
-        }
+        } */
         body {
             background-color: rgba(128, 128, 128, 0.499);
         }
+        input {
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            height: 40px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
     </style>
     <title>Página de Cadastro</title>
 </head>
@@ -25,11 +38,13 @@
     </header>
 
     <main>
-        <br>
-        <label for=""></label>
-        <input class="position-absolute" placeholder="Nome do produto" type="text" id="entrada_1" style="border-radius: 10px;"> </main> 
-        <input class="mx-auto align- " placeholder="Localização do produto" type="text" id="entrada_2" style="border-radius: 10px;"> <br>
-        <input class="btn btn-outline-primary align-middle" type="submit" value="Cadastrar" style="position: absolute; left: 50%; ">
+        <div class="container"> 
+            <br>
+            <label for=""></label>
+            <input class="mx-auto align- " placeholder="Nome do produto" type="text" id="entrada_1" style="border-radius: 10px;"> </main>
+            <input class="mx-auto align- " placeholder="Localização do produto" type="text" id="entrada_2" style="border-radius: 10px;"> <br>
+            <input class="btn btn-outline-primary" type="submit" value="Cadastrar" style="position: absolute; left: 43%; ">
+        </div>
     </main>
         
     <footer>
