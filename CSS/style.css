@@ -1,2 +1,26 @@
 @charset "UTF-08";
 
+/* pag_cadastro */
+
+#rodapé {
+    text-align: center;
+}
+/* #entrada_1, #entrada_2 {
+    position: absolute;
+    left: 50%;
+} */
+body {
+    background-color: rgba(128, 128, 128, 0.499);
+}
+input {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
